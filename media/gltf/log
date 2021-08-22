@@ -1,0 +1,140 @@
+Program called with the following parameters:
+ * angleHardThreshold = 90
+ * bestScoreThreshold = 0.1
+ * correctEV = 0
+ * downscale =  Unknown Type "unsigned int"
+ * fillHoles = 0
+ * flipNormals = 0
+ * forceVisibleByAllVertices = 0
+ * imagesFolder = "C:/Users/Prakhar Pande/Documents/MeshroomCache/PrepareDenseScene/27ed36f52802aa4f861f5ebb9105bcf75d501640"
+ * input = "C:/Users/Prakhar Pande/Documents/MeshroomCache/Meshing/aeb976c9c7347e806b3f86359bb560aa2cf613b8/densePointCloud.abc"
+ * inputMesh = "C:/Users/Prakhar Pande/Documents/MeshroomCache/MeshFiltering/00cfbb885ff94371b7703d8c7829a0371f343010/mesh.obj"
+ * multiBandDownscale =  Unknown Type "unsigned int"
+ * multiBandNbContrib =  Unknown Type "class std::vector<int,class std::allocator<int> >"
+ * output = "C:/Users/Prakhar Pande/Documents/MeshroomCache/Texturing/26b60766fbe98ba34f0afa523ff15945b8bb2613"
+ * outputTextureFileType = "png"
+ * padding =  Unknown Type "unsigned int"
+ * processColorspace = "sRGB"
+ * textureSide =  Unknown Type "unsigned int"
+ * unwrapMethod = "Basic"
+ * useScore = 1
+ * useUDIM = 1
+ * verboseLevel = "info"
+ * visibilityRemappingMethod = "PullPush"
+
+[14:14:23.142270][info] Found 1 image dimension(s): 
+[14:14:23.156817][info] 	- [867x1156]
+[14:14:23.199121][info] Overall maximum dimension: [867x1156]
+[14:14:23.199121][info] Loading mesh from obj file: C:/Users/Prakhar Pande/Documents/MeshroomCache/MeshFiltering/00cfbb885ff94371b7703d8c7829a0371f343010/mesh.obj
+[14:14:23.308840][info] 	- # vertices: 36555
+	- # normals: 0
+	- # uv coordinates: 0
+	- # triangles: 72868
+[14:14:23.592269][info] Mesh loaded: 
+	- #points: 36555
+	- # triangles: 72868
+[14:14:23.752149][info] remapMeshVisibility based on triangles start.
+[14:14:24.116454][info] remapMeshVisibility done.
+[14:14:24.151070][info] Input mesh has no UV coordinates, start unwrapping (Basic)
+[14:14:24.151070][info] Generating UVs (textureSide: 8192; padding: 5).
+[14:14:24.184807][info] Creating texture charts.
+[14:14:24.440933][info] Packing texture charts (72868 charts).
+[14:14:24.974219][info] Finalize packed charts (237 charts).
+[14:14:24.975238][info] Creating texture atlases.
+[14:14:24.975238][info] 	- texture atlas 1
+[14:14:24.975238][info] Filled with 237 charts.
+[14:14:25.275252][info] Unwrapping done.
+[14:14:25.275252][info] Writing obj and mtl file.
+[14:14:25.887155][info] Writing done: 
+	- obj file: C:/Users/Prakhar Pande/Documents/MeshroomCache/Texturing/26b60766fbe98ba34f0afa523ff15945b8bb2613\texturedMesh.obj
+	- mtl file: C:/Users/Prakhar Pande/Documents/MeshroomCache/Texturing/26b60766fbe98ba34f0afa523ff15945b8bb2613\texturedMesh.mtl
+[14:14:25.887155][info] Generate textures.
+[14:14:25.887155][info] Texturing: Use multiband blending with the following contributions per band:
+[14:14:25.887155][info]   - 1
+[14:14:25.888150][info]   - 5
+[14:14:25.888150][info]   - 10
+[14:14:25.888150][info] Texturing in sRGB colorspace.
+[14:14:25.888530][info] Images loaded from cache with: no exposure correction
+[14:14:25.888530][info] Total amount of free RAM  : 1523 MB.
+[14:14:25.888530][info] Total amount of memory available : 1468 MB.
+[14:14:25.888530][info] Total amount of an image in memory  : 11 MB.
+[14:14:25.889523][info] Total amount of an atlas pyramid in memory: 3072 MB.
+[14:14:25.889523][info] Processing 1 atlases by chunks of 1
+[14:14:25.889746][info] Generating texture for atlases 1 to 1
+[14:14:25.889746][info] Generating texture for atlas 1/1 (72868 triangles).
+[14:14:27.400074][info] Reading pixel color.
+[14:14:36.470285][info] - camera 42314432 (1/14) with contributions to 1 texture files:
+[14:14:42.323016][info]   - Texture file: 1
+[14:14:42.323016][info]       - band 1: 8739 triangles.
+[14:14:42.487071][info]       - band 2: 31193 triangles.
+[14:14:42.639831][info]       - band 3: 1067 triangles.
+[14:14:42.652333][info] - camera 255724925 (2/14) with contributions to 1 texture files:
+[14:14:43.189012][info]   - Texture file: 1
+[14:14:43.189012][info]       - band 1: 4620 triangles.
+[14:14:43.247182][info]       - band 2: 16288 triangles.
+[14:14:43.385823][info]       - band 3: 4168 triangles.
+[14:14:43.410983][info] - camera 597001810 (3/14) with contributions to 1 texture files:
+[14:14:44.203408][info]   - Texture file: 1
+[14:14:44.203408][info]       - band 1: 4006 triangles.
+[14:14:44.259468][info]       - band 2: 25931 triangles.
+[14:14:44.400528][info]       - band 3: 2671 triangles.
+[14:14:44.401525][info] - camera 776797156 (4/14) with contributions to 1 texture files:
+[14:14:44.920910][info]   - Texture file: 1
+[14:14:44.921906][info]       - band 1: 1454 triangles.
+[14:14:44.960550][info]       - band 2: 24971 triangles.
+[14:14:45.154143][info]       - band 3: 2925 triangles.
+[14:14:45.180098][info] - camera 1041558736 (5/14) with contributions to 1 texture files:
+[14:14:45.531460][info]   - Texture file: 1
+[14:14:45.531460][info]       - band 1: 2316 triangles.
+[14:14:45.564388][info]       - band 2: 24641 triangles.
+[14:14:45.717732][info]       - band 3: 4548 triangles.
+[14:14:45.745581][info] - camera 1152799687 (6/14) with contributions to 1 texture files:
+[14:14:47.155857][info]   - Texture file: 1
+[14:14:47.155857][info]       - band 1: 3051 triangles.
+[14:14:47.236860][info]       - band 2: 41654 triangles.
+[14:14:47.534559][info]       - band 3: 2509 triangles.
+[14:14:47.534559][info] - camera 1177908876 (7/14) with contributions to 1 texture files:
+[14:14:50.082974][info]   - Texture file: 1
+[14:14:50.082974][info]       - band 1: 106 triangles.
+[14:14:50.100851][info]       - band 2: 5964 triangles.
+[14:14:50.209497][info]       - band 3: 704 triangles.
+[14:14:50.216034][info] - camera 1238959574 (8/14) with contributions to 1 texture files:
+[14:14:51.293416][info]   - Texture file: 1
+[14:14:51.293416][info]       - band 1: 2694 triangles.
+[14:14:51.347245][info]       - band 2: 28941 triangles.
+[14:14:51.573726][info]       - band 3: 6034 triangles.
+[14:14:51.595192][info] - camera 1450852771 (9/14) with contributions to 1 texture files:
+[14:14:52.367450][info]   - Texture file: 1
+[14:14:52.367450][info]       - band 1: 692 triangles.
+[14:14:52.404650][info]       - band 2: 19025 triangles.
+[14:14:52.650942][info]       - band 3: 5785 triangles.
+[14:14:52.674843][info] - camera 1631498930 (10/14) with contributions to 1 texture files:
+[14:14:53.202467][info]   - Texture file: 1
+[14:14:53.202467][info]       - band 1: 4423 triangles.
+[14:14:53.288048][info]       - band 2: 34991 triangles.
+[14:14:53.534852][info]       - band 3: 3601 triangles.
+[14:14:53.551604][info] - camera 1741625511 (11/14) with contributions to 1 texture files:
+[14:14:54.134549][info]   - Texture file: 1
+[14:14:54.134549][info]       - band 1: 4916 triangles.
+[14:14:54.235543][info]       - band 2: 17372 triangles.
+[14:14:54.351476][info]       - band 3: 2950 triangles.
+[14:14:54.367237][info] - camera 1846346441 (12/14) with contributions to 1 texture files:
+[14:14:55.168618][info]   - Texture file: 1
+[14:14:55.168618][info]       - band 1: 4784 triangles.
+[14:14:55.273611][info]       - band 2: 13379 triangles.
+[14:14:55.390894][info]       - band 3: 4098 triangles.
+[14:14:55.413434][info] - camera 1944683660 (13/14) with contributions to 1 texture files:
+[14:14:55.903908][info]   - Texture file: 1
+[14:14:55.903908][info]       - band 1: 8243 triangles.
+[14:14:56.022559][info]       - band 2: 13566 triangles.
+[14:14:56.124838][info]       - band 3: 3312 triangles.
+[14:14:56.141690][info] - camera 2071126257 (14/14) with contributions to 1 texture files:
+[14:14:56.720534][info]   - Texture file: 1
+[14:14:56.720534][info]       - band 1: 22636 triangles.
+[14:14:56.919015][info]       - band 2: 7839 triangles.
+[14:14:56.969295][info]       - band 3: 1186 triangles.
+[14:14:56.986040][info] Create texture 1
+[14:14:56.986040][info]   - Computing final (average) color.
+[14:14:59.401390][info]   - Edge padding (15 pixels).
+[14:15:00.614842][info]   - Writing texture file: C:/Users/Prakhar Pande/Documents/MeshroomCache/Texturing/26b60766fbe98ba34f0afa523ff15945b8bb2613\texture_1001.png
+[14:15:20.264415][info] Task done in (s): 57.344000
